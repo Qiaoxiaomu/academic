@@ -1,52 +1,50 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include financial engineering, machine learning in economics and fintech.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: Master of Financial Engineering
+    institution: Institute of Finance & Development, Nankai Universiy
+    year: 2023
+  - course: Exchange Program
+    institution: Lazaridis Bussiness School, Wilfrid Laurier University
+    year: 2020
+  - course: BSc in Financial Engineering
+    institution: School of Finance, Southwestern University of Finance & Economics
+    year: 2020
+email: "nickzhy@outlook.com"
 highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Financial Engineering
+- Machine Learning in Economics
+- Fintech
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Nankai University
+  url: https://www.nankai.edu.cn/
+role: Master Student in Fiancial Engineering
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
 - display:
     header: true
-  icon: twitter
+  icon: zhihu
   icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
+  label: Follow me on Zhihu
+  link: https://www.zhihu.com/people/zheng-han-yu-66-14
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://www.researchgate.net/profile/Hanyu_Zheng4
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/nick-zhy
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/%E6%B6%B5%E6%98%B1-%E9%83%91-289b8a155/
 superuser: true
-title: Nelson Bighetti
+title: Hanyu Zheng
 ---
+Hanyu Zheng is a master student in Nankai University. He plans to apply for a Ph.D in finance  or economics after graduation. His research interests include fintech, machine leaning in economics and financial inclusion. He has learned econometrics, fundamental machine leaning and some coding languages like python and R.
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+He likes Real Madrid, League of Legends and Python.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Chinese_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
