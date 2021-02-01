@@ -20,14 +20,18 @@ feature:
   icon: python
   icon_pack: fab
   name: Python
-- description: 80%
-  icon: chart-line
-  icon_pack: fas
-  name: Statistics
-- description: 80%
+#- description: 80%
+#  icon: chart-line
+#  icon_pack: fas
+#  name: Statistics
+- description: 70%
   icon: r-project
   icon_pack: fab
   name: R
+- description: 60%
+  icon: latex
+  icon_pack: custom
+  name: LaTeX
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"
