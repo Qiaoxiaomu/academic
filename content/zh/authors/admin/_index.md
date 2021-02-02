@@ -47,4 +47,4 @@ title: 郑涵昱
 
 他热爱皇家马德里，英雄联盟和Python
 
-{{< icon name="download" pack="fas" >}} 下载我的{{< staticref "media/Chinese_CV.pdf" "newtab" >}}简历{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} 下载我的{{< staticref "media/CV.pdf" "newtab" >}}简历{{< /staticref >}}.

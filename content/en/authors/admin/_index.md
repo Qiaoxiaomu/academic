@@ -47,4 +47,4 @@ Hanyu Zheng is a master student in Nankai University. He plans to apply for a Ph
 
 He likes Real Madrid, League of Legends and Python.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Chinese_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/CV.pdf" "newtab" >}}resumé{{< /staticref >}}.

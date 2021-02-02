@@ -21,25 +21,35 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+
 experience:
-  - title: CEO
-    company: GenCoin
+  - title : Research Assistant
+    company: Wilfrid Laurier University, Prof. Yongzeng Lai
+    company_url: 'https://www.wlu.ca/academics/faculties/faculty-of-science/faculty-profiles/yongzeng-lai/index.html'
+    location: Remote
+    date_start: '2020-07-20'
+    date_end: '2020-09-01'
+    description: |2-
+        Research Topic:
+        
+        * Using neural network to predict financial data series
+        
+        Responsibilities include:
+        
+        * Collecting financial data like mutual fund and bitcoin
+        * Adjust parameters to get better model performance
+        * Debugging the python code and organize plots
+
+  - title: Intership
+    company: Shenwan Hongyuan Security Lt.d
     company_url: ''
-    location: California
-    date_start: '2017-01-01'
-    date_end: ''
+    location: Shanghai
+    date_start: '2020-04-27'
+    date_end: '2020-07-15'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor
-    company: University X
-    company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+        * Pricing different kinds of OTC options
+        * Settling OTC options
+        * Valuating OTC options
 ---

@@ -24,7 +24,7 @@
     url = "#posts"
     weight = 2
 [[zh.menu.main]]
-    name = "专业技能"
+    name = "技能"
     url = "#skills"
     weight = 3
 [[zh.menu.main]]
@@ -32,10 +32,14 @@
     url = "#experience"
     weight = 4
 [[zh.menu.main]]
-    name = "荣誉奖项"
+    name = "获奖"
     url = "#accomplishments"
     weight = 5
 [[zh.menu.main]]
+    name = "项目"
+    url = "#projects"
+    weight = 6
+[[zh.menu.main]]
     name = "联系方式"
     url = "#contact"
-    weight = 6
+    weight = 7
