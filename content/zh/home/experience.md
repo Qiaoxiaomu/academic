@@ -42,7 +42,7 @@ experience:
     date_start: '2020-04-27'
     date_end: '2020-07-15'
     description: |2-
-        Responsibilities include:
+        主要工作包括:
         
         * 给多种场外期权（包括鲨鱼鳍、雪球）定价
         * 结算场外期权收益

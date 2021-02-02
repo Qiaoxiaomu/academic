@@ -31,10 +31,9 @@ item:
   organization: 数学及其应用协会
   organization_url: ""
   title: |2-
-    Meriterious Winner (10%)
-    
     美国大学生数学建模竞赛
     
+    Meriterious Winner (10%)
   url: ""
   
 - certificate_url: ""
@@ -44,9 +43,9 @@ item:
   organization: 中国工业与应用数学学会
   organization_url: ""
   title: |2-
-    四川省二等奖
-    
     全国大学生数学建模竞赛
+    
+    四川省二等奖
   url: ""
     
 - certificate_url: ""
@@ -56,8 +55,8 @@ item:
   organization: 高等学校大学外语教学指导委员会
   organization_url: ""
   title: |2-
-    全国三等奖
-    
     全国大学生英语能力竞赛
+    
+    全国三等奖
   url: ""
 ---

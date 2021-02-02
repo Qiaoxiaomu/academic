@@ -30,9 +30,11 @@ item:
   organization: Consortium for Mathematics and Its Applications
   organization_url: ""
   title: |2-
+    Mathematical Contest In Modeling
+    
     Meriterious Winner (10%)
     
-    Mathematical Contest In Modeling
+    
     
   url: ""
   
@@ -43,20 +45,22 @@ item:
   organization: China Society for Industrial and Applied Mathematics
   organization_url: ""
   title: |2-
+    Contemporary Undergraduate Mathematical Contest in Modeling
+    
     Second Prize in Sichuan Province
     
-    Contemporary Undergraduate Mathematical Contest in Modeling
+    
   url: ""
     
 - certificate_url: ""
   date_end: ""
   date_start: "2019-05-20"
   description: ""
-  organization: 
+  organization: The National Administry Committee on Teaching English Language to Majors in Higher Education under The Ministry of Education
   organization_url: ""
   title: |2-
-    National Third Prize
-    
     National English Competition for College Students
+    
+    National Third Prize
   url: ""
 ---
