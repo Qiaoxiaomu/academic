@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: ""
+- certificate_url: "https://onedrive.live.com/?authkey=%21ABVF6sO8lF%2Deq7Y&cid=923842747351D313&id=923842747351D313%215909&parId=923842747351D313%215894&o=OneUp"
   date_end: ""
   date_start: "2018-02-08"
   description: ""
