@@ -4,9 +4,13 @@
 title: "利用python实现probit模型并输出规范回归结果"
 subtitle: ""
 summary: "本文尝试用Python实现Probit回归，同时像Stata那样输出规范的回归结果。"
+author: 郑涵昱
 authors: []
-tags: []
-categories: []
+tags: 
+  - python
+  - econometrics
+categories: 
+  - python
 date: 2021-02-01T17:30:57+08:00
 lastmod: 2021-02-01T17:30:57+08:00
 featured: false
@@ -26,10 +30,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+toc: true
 ---
 最近计量课刚学了用Stata实现Probit回归，不得不说Stata确实香，操作简单不说，还能自动导出规范的回归结果。但作为一个爱折腾的人，还是希望用Python实现相同功能。本文尝试用Python实现Probit回归，同时像Stata那样输出规范的回归结果。同时，本文首次使用blogdown来写博文，可以将每一段代码的结果也展示出来，是真的很强大(给[Yihui大神](https://yihui.org/)点赞)，不但写博文更方便了，阅读体验也大大提升。
-
-<!--more-->
 
 # 1. 理论基础
 

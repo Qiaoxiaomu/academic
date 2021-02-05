@@ -10,14 +10,14 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+title: 'Awards'
 subtitle:
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
-# Accomplishments.
+# Awards.
 #   Add/remove as many `item` blocks below as you like.
 #   `title`, `organization`, and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
@@ -32,7 +32,7 @@ item:
   title: |2-
     Mathematical Contest In Modeling
     
-    Meriterious Winner (10%)
+    Meriterious Winner (7%)
     
     
     

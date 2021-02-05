@@ -23,10 +23,10 @@
     name = "日志"
     url = "#posts"
     weight = 2
-[[zh.menu.main]]
-    name = "技能"
-    url = "#skills"
-    weight = 3
+#[[zh.menu.main]]
+#    name = "技能"
+#    url = "#skills"
+#    weight = 3
 [[zh.menu.main]]
     name = "经历"
     url = "#experience"
