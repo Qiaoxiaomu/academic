@@ -20,12 +20,9 @@ feature:
   icon: python
   icon_pack: custom
   name: Python
-#- description: 80%
-#  icon: chart-line
-#  icon_pack: fas
-#  name: Statistics
+
 - description: ""
-  icon: r
+  icon: r-icon
   icon_pack: custom
   name: R
 - description: ""
