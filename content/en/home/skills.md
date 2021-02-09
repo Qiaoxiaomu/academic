@@ -18,33 +18,34 @@ subtitle:
 feature:
 - description: ""
   icon: python
-  icon_pack: fab
+  icon_pack: custom
   name: Python
 #- description: 80%
 #  icon: chart-line
 #  icon_pack: fas
 #  name: Statistics
 - description: ""
-  icon: r-project
-  icon_pack: fab
-  name: R
-- description: ""
-  icon: latex
+  icon: r
   icon_pack: custom
-  name: LaTeX
+  name: R
 - description: ""
   icon: matlab
   icon_pack: custom
   name: MATLAB
+
+
 - description: ""
   icon: stata
   icon_pack: custom
   name: Stata
 - description: ""
+  icon: latex
+  icon_pack: custom
+  name: LaTeX
+- description: ""
   icon: markdown
-  icon_pack: fab
+  icon_pack: custom
   name: Markdown
-
 
 
 # Uncomment to use emoji icons.

@@ -49,7 +49,8 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Pricing different kinds of OTC options
-        * Settling OTC options
+        * Pricing OTC options including snoball and barrier
+        * Settling OTC options very trade day
         * Valuating OTC options
+        * Use python to send e-mails to clients automatically
 ---
