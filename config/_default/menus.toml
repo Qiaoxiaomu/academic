@@ -26,10 +26,16 @@
   name = "Projects"
   url = "#projects"
   weight = 7
+  
+[[main]]
+  name = "Notes"
+  url = "courses/"
+  weight = 8
+
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 8
+  weight = 9
 
 #[[main]]
 #  name = "Projects"
@@ -46,10 +52,6 @@
 #  url = "#featured"
 #  weight = 50
 
-# [[main]]
-#  name = "Courses"
-#  url = "courses/"
-#  weight = 60
 
 
 

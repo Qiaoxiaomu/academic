@@ -2,8 +2,8 @@
 header:
   caption: ""
   image: ""
-title: Courses
+title: Notes
 type: page
 ---
 
-I teach the following courses:
+Where the knowledge is archived...

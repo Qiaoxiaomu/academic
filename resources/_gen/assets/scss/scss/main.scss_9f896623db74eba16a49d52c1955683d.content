@@ -7149,7 +7149,7 @@ a.text-dark:hover, a.text-dark:focus {
  **************************************************/
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 16.17px;
+  font-size: 13.86px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65;
   scroll-padding-top: 70px; }
@@ -7158,7 +7158,7 @@ html {
       scroll-padding-top: 50px; } }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 21px; } }
+    font-size: 18px; } }
 
 body {
   font-family: inherit;
@@ -7518,9 +7518,10 @@ div.alert a {
  *  Page content
  **************************************************/
 .article-container {
-  max-width: 760px;
+  max-width: 60%;
   padding: 0 20px 0 20px;
-  margin: 0 auto 0 auto; }
+  margin: 0 auto 0 auto;
+  font-size: 16px; }
 
 .page-subtitle {
   font-size: 1.15rem;
@@ -7536,7 +7537,7 @@ div.alert a {
   clear: both; }
 
 .article-banner {
-  width: 100%;
+  width: 50%;
   height: auto; }
 
 .featured-image-wrapper {
@@ -8018,10 +8019,10 @@ a.summary-link {
   z-index: 1032; }
 
 .navbar {
-  height: 70px;
+  height: 60px;
   background: #fff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 16.17px;
+  font-size: 13.86px;
   position: fixed;
   top: 0;
   right: 0;
@@ -8050,7 +8051,7 @@ a.summary-link {
         font-weight: bold !important;
         color: #2962ff !important; }
   .navbar .dropdown-menu {
-    font-size: 16.17px; }
+    font-size: 13.86px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
@@ -8281,14 +8282,15 @@ summary:focus {
  *  Documentation layout
  **************************************************/
 .docs-article-container {
-  max-width: 760px; }
+  max-width: 75%;
+  font-size: 16px; }
 
 /* Documentation: article footer. */
 .docs .body-footer {
   border-top: 1px solid #e8e8e8;
   margin-top: 30px;
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: #707070; }
 
 /* Docs content. */
@@ -8321,6 +8323,7 @@ summary:focus {
 
 /* Docs sidebar. */
 .docs-sidebar {
+  font-size: 18px;
   order: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
@@ -8400,7 +8403,7 @@ summary:focus {
 
 /* Docs TOC. */
 .docs-toc {
-  order: 2;
+  order: 4;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   font-size: 0.875rem; }
@@ -8447,7 +8450,7 @@ summary:focus {
   padding-left: calc(1.5rem + 1px); }
 
 #TableOfContents {
-  padding-left: 0;
+  padding-left: 1px;
   border-left: 1px solid #eee; }
 
 #TableOfContents ul,
@@ -8463,9 +8466,9 @@ ul.toc-top {
 #TableOfContents li a,
 .toc-top li a {
   display: block;
-  padding: 0.125rem 1.5rem;
+  padding: 0.125rem 0.125rem;
   color: rgba(0, 0, 0, 0.65);
-  font-size: 0.7rem; }
+  font-size: 0.8rem; }
 
 .dark #TableOfContents li a,
 .dark .toc-top li a {

@@ -40,6 +40,10 @@
     url = "#projects"
     weight = 6
 [[zh.menu.main]]
+    name = "笔记"
+    url = "courses"
+    weight = 7
+[[zh.menu.main]]
     name = "联系方式"
     url = "#contact"
-    weight = 7
+    weight = 8

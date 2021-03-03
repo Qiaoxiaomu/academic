@@ -2,8 +2,8 @@
 header:
   caption: ""
   image: ""
-title: Courses
+title: 笔记
 type: page
 ---
 
-I teach the following courses:
+知识储藏地...
