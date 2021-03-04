@@ -306,4 +306,3 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-where $\mathbf{y}_{i}=\left(y_{i 1}, \ldots, y_{i p}\right)^{\prime}$ consists of the $i$th row of $\textbf{Y}$.
