@@ -3,7 +3,7 @@ date: "2021-01-01"
 title: Characterizing and Displaying Multivariate Data
 type: book
 weight: 30
-
+math: true
 ---
 
 ## Random Vector
@@ -32,7 +32,7 @@ where $\mathbf{y}\_{i}=\left(y_{i 1}, \ldots, y_{i p}\right)^{\prime}$ consists 
 
 - Population mean vector
 
-  For a random vector $\textbf{y}=(Y_1,..., Y_p)'$: $$E(\mathbf{y})=\left(E\left(Y_{1}\right), \ldots,      E\left(Y_{p}\right)\right)^{\prime}=\left(\mu_{1}, \ldots, \mu_{p}\right)^{\prime}=\boldsymbol{\mu}$$
+  For a random vector $\textbf{y}=(Y_1,..., Y_p)'$: $$E(\mathbf{y})=\left(E\left(Y_{1}\right), \ldots,      E\left(Y_{p}\right)\right)^{\prime}=\left(\mu_{1}, \ldots, \mu_{p}\right)^{\prime}=\mathbf{\mu}$$
   
 - Sample mean vector
 
@@ -239,7 +239,7 @@ d
 pairs(iris[, 1:4], main="Scatterplot Matrix Iris Data")
 ```
 
-![](unnamed-chunk-5-1.png)
+![6ZRzLQ.jpg](https://s3.ax1x.com/2021/03/04/6ZRzLQ.jpg)
 
 
 ## Partitions of Random Vector
@@ -284,25 +284,32 @@ where $\mathbf{A}$ is a $q×p$ matrix, indicating $q$ linear combinations among 
 
 ### Sample linear combinations
 
+Consider random sample $z\_1,...,z\_n$ where $z\_i=\mathbf{a}'\mathbf{y}\_i$ which is a scalar.
 
-Consider random sample $z_1,...,z_n$ where $z_i=\mathbf{a}'\mathbf{y}_i$ which is a scalar.
+$$
+\bar{z}=\frac{1}{n} \sum\_{i=1}^{n}z\_{i}=\frac{1}{n} \sum\_{i=1}^{n}{\mathbf{a}'\mathbf{y}\_i}=\frac{1}{n} \mathbf{a}' \sum\_{i=1}^{n}{\mathbf{y\_{i}}}=\mathbf{a}' \bar{\mathbf{y}}
+$$
 
-$$\bar{z}=\frac{1}{n} \sum_{i=1}^{n}z_{i}=\frac{1}{n} \sum_{i=1}^{n}{\mathbf{a}'\mathbf{y}_i}=\frac{1}{n} \mathbf{a}' \sum_{i=1}^{n}{\mathbf{y_{i}}}=\mathbf{a}' \bar{\mathbf{y}}$$
+$$
+\begin{aligned}
+s\_{z}^2 &=\frac{1}{n-1}\sum\_{i=1}^{n}{(z\_i-\bar{z})^2} \\\\ &=\frac{1}{n-1}\sum\_{i=1}^{n}{(\mathbf{a}'\mathbf{y}\_i-\mathbf{a}' \bar{\mathbf{y}})^2} \\\\ &=\frac{1}{n-1}\mathbf{a}'   (\sum\_{i=1}^{n}{(\mathbf{y}\_i-\bar{\mathbf{y}})^2} )\mathbf{a} \\\\ &=\mathbf{a}'s\_{y}^{2}\mathbf{a}
+\end{aligned}
+$$
 
-$$\begin{aligned}
-s_{z}^2 &=\frac{1}{n-1}\sum_{i=1}^{n}{(z_i-\bar{z})^2} \\\\ &=\frac{1}{n-1}\sum_{i=1}^{n}{(\mathbf{a}'\mathbf{y}_i-\mathbf{a}' \bar{\mathbf{y}})^2} \\\\ &=\frac{1}{n-1}\mathbf{a}'   (\sum_{i=1}^{n}{(\mathbf{y}_i-\bar{\mathbf{y}})^2} )\mathbf{a} \\\\ &=\mathbf{a}'s_{y}^{2}\mathbf{a}
-\end{aligned}$$
 
+Consider random sample $\mathbf{z}\_1,...,\mathbf{z}\_n$ where $\mathbf{z}\_i=\mathbf{A}\mathbf{y}\_i$ and $\mathbf{A}$ is a $q×p$ matrix.
 
-Consider random sample $\mathbf{z}_1,...,\mathbf{z}_n$ where $\mathbf{z}_i=\mathbf{A}\mathbf{y}_i$ and $\mathbf{A}$ is a $q×p$ matrix.
+$$
+\bar{\mathbf{z}}=\frac{1}{n} \sum\_{i=1}^{n}\mathbf{z}\_{i}=\frac{1}{n} \sum\_{i=1}^{n}{\mathbf{A}\mathbf{y}\_i}=\frac{1}{n} \mathbf{A} \sum\_{i=1}^{n}{\mathbf{y\_{i}}}=\mathbf{A} \bar{\mathbf{y}}
+$$
 
-$$\bar{\mathbf{z}}=\frac{1}{n} \sum_{i=1}^{n}\mathbf{z}\_{i}=\frac{1}{n} \sum_{i=1}^{n}{\mathbf{A}\mathbf{y}\_i}=\frac{1}{n} \mathbf{A} \sum_{i=1}^{n}{\mathbf{y\_{i}}}=\mathbf{A} \bar{\mathbf{y}}$$
-
-$$\begin{aligned}
+$$
+\begin{aligned}
 \mathbf{S}\_{z}&=\frac{1}{n-1} \sum\_{n=1}^{n}\left(\mathbf{z}\_{i}-\overline{\mathbf{z}}\right)\left(\mathbf{z}\_{i}-\overline{\mathbf{z}}\right)^{\prime} \\\\
 &=\frac{1}{n-1} \sum\_{n=1}^{n}\left(\mathbf{A} \mathbf{y}\_{i}-\mathbf{A} \overline{\mathbf{y}}\right)\left(\mathbf{A} \mathbf{y}\_{i}-\mathbf{A} \overline{\mathbf{y}}\right)^{\prime} \\\\
 &=\frac{1}{n-1} \mathbf{A}\left(\sum\_{n=1}^{n}\left(\mathbf{y}\_{i}-\overline{\mathbf{y}}\right)\left(\mathbf{y}\_{i}-\overline{\mathbf{y}}\right)^{\prime}\right) \mathbf{A}^{\prime} \\\\
 &=\mathbf{A} \mathbf{S}\_{y} \mathbf{A}^{\prime}
-\end{aligned}$$
+\end{aligned}
+$$
 
 

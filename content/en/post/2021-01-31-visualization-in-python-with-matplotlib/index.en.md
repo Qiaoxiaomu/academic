@@ -1,6 +1,7 @@
 ---
 title: Visualization in Python with Matplotlib
 author: Hanyu Zheng
+comments: true
 math: true
 date: '2021-01-31'
 slug: visualization-in-python-with-matplotlib
