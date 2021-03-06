@@ -1,16 +1,12 @@
 ---
 date: "2021-01-01"
-title: Review of Algebra
+title: 01 Review of Algebra
 type: book
-weight: 20
+weight: 2
 math: true
 ---
 
-Introduction of Multivariate Analysis and Review of Algebra. 
-
-<!--more-->
-
-## Basic Definitions and Operations
+# Basic Definitions and Operations
 
 - matrix $\textbf{A}$, vector $\textbf{a}$, scalar $a$
 
@@ -26,9 +22,9 @@ Introduction of Multivariate Analysis and Review of Algebra.
   
   **Projection** of vector $\textbf{a}$ onto $\textbf{b}$: $||\textbf{a}||\cos{\theta}·\frac{\textbf{b}}{||\textbf{b}||}=\frac{(\textbf{a}' \textbf{b})\textbf{b}}{\textbf{b}'\textbf{b}}$
   
-## Characteristics of Matrices
+# Characteristics of Matrices
 
-### Rank and Inverse
+## Rank and Inverse
 
 - **Linear dependence** of vectors: $\textbf{a}\_1,..., \textbf{a}\_n$: if there exist constants $c_1,...,c_n$, not all zero, s.t. $\sum_{i=1}^{n}{c_i}\textbf{a}_{i}=0$.
   
@@ -54,7 +50,7 @@ Introduction of Multivariate Analysis and Review of Algebra.
   
   - $tr(\textbf{A}'\textbf{A})=tr(\textbf{A}\textbf{A}')=\sum_{i=1}^{n}\sum_{j=1}^{p}{a_{ij}^2}$, where $\textbf{A}=(a_{ij})_{n×p}$
 
-### Eigenvalue and Eigenvector
+## Eigenvalue and Eigenvector
 
 - **Eigenvalue** and **Eigenvector**: scalar $\lambda_{i}$ and nonzero vector $\textbf{x}_i$ s.t. $\textbf{A} \textbf{x}_i=\lambda_{i} \textbf{x}_{i}$, or $(\textbf{A}-\lambda_{i} \textbf{I})\textbf{x}_{i}=0, i=1,...,n$
 
@@ -66,7 +62,7 @@ Introduction of Multivariate Analysis and Review of Algebra.
   
   - If $\textbf{A}$ i symmetric, then $x_i$'s are mutually orthogonal.
 
-### Two Decomposition
+## Two Decomposition
 
 -   **Spectral Decompostion**
 
@@ -94,7 +90,7 @@ Introduction of Multivariate Analysis and Review of Algebra.
     where $\textbf{T}$ is a *nonsingular upper triangular* matrix which
     can be got by `>chol(A)` in R
 
-## R Impoementation
+# R Impoementation
 
 -   Addition and substraction:
 
