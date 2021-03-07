@@ -5,6 +5,7 @@ summary: MOOC在线课程多元分析在线笔记
 title: "\U0001F4CA 多元分析"
 type: book
 math: true
+weight: 10
 ---
 
 {{< figure src="featured.jpg" >}}

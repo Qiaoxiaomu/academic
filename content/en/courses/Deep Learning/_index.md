@@ -5,6 +5,7 @@ summary: This course is the open online course given by Hung-yi Lee from Nation 
 title: "\U0001F4C8 Deep Learning 2021"
 type: book
 math: true
+weight: 1
 ---
 
 {{< figure src="featured.png" >}}

@@ -5,6 +5,7 @@ summary: Notes for online course Multivariate Analysis
 title: "\U0001F4CA Multivariate Analysis"
 type: book
 math: true
+weight: 10
 ---
 
 {{< figure src="featured.jpg" >}}

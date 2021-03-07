@@ -5,6 +5,7 @@ summary: 本笔记针对由台湾大学李宏毅教授于2021年春季开设的�
 title: "\U0001F4C8 深度学习 2021"
 type: book
 math: true
+weight: 1
 ---
 
 {{< figure src="featured.png" >}}

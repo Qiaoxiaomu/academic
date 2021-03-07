@@ -1,6 +1,6 @@
 ---
 date: "2021-03-06"
-title: Lec2 Critical Point and Optimizer
+title: Lec 2 Critical Point and Optimizer
 type: book
 weight: 2
 math: true
