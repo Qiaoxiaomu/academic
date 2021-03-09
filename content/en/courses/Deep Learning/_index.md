@@ -19,13 +19,13 @@ This course is a open online course given by [Hung-yi Lee](https://speech.ee.ntu
 You can find the videos both on [youtube](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J) or [bilibili](https://www.bilibili.com/video/BV11K4y1S7AD).
 
 {{% callout note %}}
-This is actually a personal notebook, it only includes what I think is important and valuable. So it is not as comprehensive as the instructor's original vedios and slides.
+This is actually a personal notebook, it only includes what I think is important. So it is not as comprehensive as the instructor's original vedios and slides.
 {{% /callout %}}
 
 # Brief Syllabus
 
 - Introduction
-- Deep Learning
+- [Deep Learning](https://nickzhy.com/courses/deep-learning/lec2/)
 - Self-Attention
 - Theory of ML
 - Transformer

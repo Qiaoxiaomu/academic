@@ -15,15 +15,19 @@ weight: 10
 
 # Notes summary
 
-This notebook is  created by Hanyu Zheng for Multivariate Analysis, a MOOC course. Please note that **I just take down what I think is important and valuable**, so it's not as comprehesive as Prof. Liu 's course nor her slides. I made this online notebook maily for futrue use, when I want to refer to something about this subject, I just need to open my websit and review what I want.
+This notebook is  created by Hanyu Zheng for Multivariate Analysis, a MOOC course. I made this online notebook maily for futrue use, when I want to refer to something about this subject, I just need to open my websit and review what I want.
 
-The course is provided by Prof. Jingyuan Liu from Xiamen University. You can find the course [here](https://www.icourse163.org/course/XMU1-1461267164). 
+The course is provided by Prof. Jingyuan Liu from Xiamen University. You can find the course [here](https://www.icourse163.org/course/XMU1-1461267164). Thanks Prof. Liu for her excellent teaching and spoken English. 
+
+{{% callout note %}}
+This is actually a personal notebook, it only includes what I think is important. So it is not as comprehensive as the instructor's original vedios and slides.
+{{% /callout %}}
 
 # Brief Syllabus
 
-- 01 Introduction and Review
+- [01 Introduction and Review](https://nickzhy.com/courses/multivariate-analysis/introduction/)
 
-- 02 Characterizing and Displaying Multivariate Data
+- [02 Characterizing and Displaying Multivariate Data](https://nickzhy.com/courses/multivariate-analysis/characteristics/)
 
 - 03 Multivariate Normal Distribution
 

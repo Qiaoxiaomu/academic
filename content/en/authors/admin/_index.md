@@ -2,14 +2,14 @@
 bio: A true master is an eternal student.
 education:
   courses:
-  - course: Master of Financial Engineering
-    institution: Institute of Finance & Development, Nankai Universiy
+  - course: MSc in Economics
+    institution: Financial Engineering, Nankai Universiy
     year: 2023
-  - course: Exchange Program
+  - course: One-term Exchange
     institution: Lazaridis Bussiness School, Wilfrid Laurier University
     year: 2020
-  - course: BSc in Financial Engineering
-    institution: School of Finance, Southwestern University of Finance & Economics
+  - course: BSc in Economics
+    institution: Financial Engineering, Southwestern University of Finance & Economics
     year: 2020
 email: "nickzhy@outlook.com"
 highlight_name: false

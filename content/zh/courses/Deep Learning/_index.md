@@ -25,7 +25,7 @@ This is actually a personal notebook, it only includes what I think is important
 # Brief Syllabus
 
 - Introduction
-- Deep Learning
+- [Deep Learning](https://nickzhy.com/courses/deep-learning/lec2/)
 - Self-Attention
 - Theory of ML
 - Transformer

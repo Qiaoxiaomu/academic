@@ -1,6 +1,6 @@
 ---
 date: "2021-03-03"
-linkTitle: PyTorch
+linkTitle: pytorch
 summary: A notebook for PyTorch self-studyinig and homeworks for Deep Learning 2021
 title: "\U0001F525 PyTorch"
 type: book
