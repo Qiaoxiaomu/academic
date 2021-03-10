@@ -43,6 +43,10 @@ experience:
   - title: Intership
     company: Shenwan Hongyuan Security Lt.d
     company_url: ''
+    image:
+      caption: ''
+      focal_point: ''
+      preview_only: no
     location: Shanghai
     date_start: '2020-04-27'
     date_end: '2020-07-15'

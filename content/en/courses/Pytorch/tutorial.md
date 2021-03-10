@@ -2,7 +2,7 @@
 date: "2021-03-06"
 title: 01 PyTorch Starter 
 type: book
-weight: 2
+weight: 1
 ---
 
 
