@@ -25,11 +25,11 @@ This is actually a personal notebook, it only includes what I think is important
 
 # Brief Syllabus
 
-- [01 Introduction and Review](https://nickzhy.com/courses/multivariate-analysis/introduction/)
+- [01 Introduction and Review](https://nickzhy.com/zh/courses/multivariate-analysis/introduction/)
 
-- [02 Characterizing and Displaying Multivariate Data](https://nickzhy.com/courses/multivariate-analysis/characteristics/)
+- [02 Characterizing and Displaying Multivariate Data](https://nickzhy.com/zh/courses/multivariate-analysis/characteristics/)
 
-- 03 Multivariate Normal Distribution
+- [03 Multivariate Normal Distribution](http://nickzhy/zh/courses/multivariate-analysis/cha3-multivariate-normal-distribution/)
 
 - 04 Tests on Mean Vectors
 

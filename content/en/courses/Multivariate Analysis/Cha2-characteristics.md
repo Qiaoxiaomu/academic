@@ -1,6 +1,6 @@
 ---
 date: "2021-01-01"
-title: 02 Characterizing and Displaying Multivariate Data
+title: 02 Characterizing Multivariate Data
 type: book
 weight: 3
 math: true
