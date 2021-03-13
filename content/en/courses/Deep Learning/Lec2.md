@@ -92,6 +92,36 @@ $$\dotsb$$
 
 where $\mathbf{m}^{0}$ is the movment at time $0$ and $\mathbf{m}^{1}$ is the movement at time $1$.
 
+# Classification
+
+## One-hot Vector
+
+For example, if there are 3 classes, then set the one-hot vector as
+
+$$\widehat{\boldsymbol{y}}=\left[\begin{array}{l}
+1 \\\\
+0 \\\\
+0
+\end{array}\right] \text { or }\left[\begin{array}{l}
+0 \\\\
+1 \\\\
+0
+\end{array}\right] \text { or }\left[\begin{array}{l}
+0 \\\\
+0 \\\\
+1
+\end{array}\right]$$
+
+The output of the network should also be a one-hot vector.
+
+## Cross-entropy
+
+We don't ues MSE to assess the performance but cross-entropy:
+
+$$e=-\sum\_{i} \widehat{y}\_{i} \ln y\_{i}^{\prime}$$
+
+where $y\_i$ is the output of the network, $y\_i'$ is the output of softmax funciton.
+
 # Online Videos (from youtube)
 
 ## Critical Point
@@ -101,6 +131,12 @@ where $\mathbf{m}^{0}$ is the movment at time $0$ and $\mathbf{m}^{1}$ is the mo
 ## Batch and Momentum
 
 {{<youtube zzbr1h9sF54>}}
+
+## Classification (short version)
+
+{{<youtube O2VkP8dJ5FE>}}
+
+
 
 
 

@@ -157,7 +157,7 @@ Right Multiply both sides with $-\frac{1}{2} \mathbf{\Sigma}^{-1}$, we get
 
 $$n \mathbf{I}=\sum\_{i=1}^{n}{{\mathbf{\Sigma}}^{-1} (\mathbf{y}\_i-\boldsymbol{\mu}) (\mathbf{y}\_i-\boldsymbol{\mu})'}$$
 
-Left multiply both sides with $-\frac{1}{2} \mathbf{\Sigma}^{-1}$, 
+Left multiply both sides with $\mathbf{\Sigma}$, 
 
 $$\mathbf{\Sigma}=\frac{1}{n} \sum\_{i=1}^{n}{(\mathbf{y}\_i-\boldsymbol{\mu}) (\mathbf{y}\_i-\boldsymbol{\mu})'}=\frac{n-1}{n} \mathbf{S}$$
 
