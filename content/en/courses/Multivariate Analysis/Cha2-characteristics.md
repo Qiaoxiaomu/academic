@@ -6,6 +6,8 @@ weight: 3
 math: true
 ---
 
+[Homework 1 Possible Solutions](https://1drv.ms/u/s!AhPTUXN0QjiSzgYOFLudL4YmhF1r?e=rkxzqr)
+
 # Random Vector
 
 ## Matrix Presentation
