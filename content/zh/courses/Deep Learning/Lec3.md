@@ -12,6 +12,8 @@ math: true
 
 [CNN Slides](https://1drv.ms/b/s!AhPTUXN0QjiSzVgnNZdCaB541wom?e=ExXHDj)
 
+<p align="center"><iframe src="https://onedrive.live.com/embed?cid=923842747351D313&resid=923842747351D313%219944&authkey=AM1atCz6L5jgfFw&em=2" width="760" height="500" frameborder="0" scrolling="no"></iframe></p>
+
 The homework may be more important than the lectrue, in this part.
 
 ## Neuron Version Story
@@ -40,6 +42,12 @@ Flatten the output after pooling into a vector, then it may be put into a fully-
 # Self-Attention
 
 [Self-Attention Slides](https://1drv.ms/b/s!AhPTUXN0QjiSzVdq7Lk3kyp9RoL9?e=QAMZmw)
+
+<p align="center">
+<iframe src="https://onedrive.live.com/embed?cid=923842747351D313&resid=923842747351D313%219943&authkey=AGZNmF_BZ4BJeMM&em=2" width="760" height="500" frameborder="0" scrolling="no">
+</iframe>
+</p>
+
 
 When the input is a set of vector, e.g., in word embedding,voice recognition.
 
