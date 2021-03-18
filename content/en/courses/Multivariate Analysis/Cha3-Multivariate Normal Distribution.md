@@ -107,7 +107,7 @@ After standardization, $\mathbf{z}$ has mean $\mathbf{0}$ and cov matrix $\mathb
   
 # Estimation in Multivariate Normal
 
-## MLE of $\boldsymbol{\mu}$ & $\mathbf{\Sigma}$
+## MLE of $\boldsymbol{\mu}$ & $\mathbf{\Sigma}$ (with proof)
 
 The estimates of $\boldsymbol{\mu}$ & $\mathbf{\Sigma}$ can be found by maximizing the likelihood function based on the observation vectors $\mathbf{y}\_1,...,\mathbf{y}\_n$
 
@@ -117,19 +117,19 @@ L\left(\mathbf{y}\_{1}, \mathbf{y}\_{2}, \ldots, \mathbf{y}\_{n}, \boldsymbol{\m
 &=\frac{1}{(\sqrt{2 \pi})^{n p}|\mathbf{\Sigma}|^{n / 2}} e^{-\sum\_{i=1}^{n}\left(\mathbf{y}\_{i}-\boldsymbol{\mu}\right)^{\prime} \mathbf{\Sigma}^{-1}\left(\mathbf{y}\_{i}-\boldsymbol{\mu}\right) / 2}
 \end{aligned}$$
 
-## Proof of MLE 
+**One Possible Proof**
 
 Take the logarithm of $L$
 
 $$\ln{L}=-\frac{np}{2} \ln{2\pi}-\frac{n}{2}\ln{|\mathbf{\Sigma}|}-\frac{1}{2} \sum\_{i=1}^{n}{(\mathbf{y}\_i-\boldsymbol{\mu})'\mathbf{\Sigma}^{-1}(\mathbf{y}\_i-\boldsymbol{\mu})}$$
 Then we can get the optimization problem
 
-$$\max\_{\boldsymbol{\mu},\mathbf{\Sigma}} {\ln{L}}$$
+$$\min\_{\boldsymbol{\mu},\mathbf{\Sigma}} {\ln{L}}$$
 The first order condition:
 
 $$\begin{aligned}
-\frac{\partial \ln L}{\partial \boldsymbol{\mu}}&=0 \\\\
-\frac{\partial \ln L}{\partial \mathbf{\Sigma}}&=0 \\\\
+\frac{\partial \ln L}{\partial \boldsymbol{\mu}}=0 \\\\
+\frac{\partial \ln L}{\partial \mathbf{\Sigma}}=0
 \end{aligned}$$
 
 For the estimation of $\boldsymbol{\mu}$,
@@ -206,7 +206,7 @@ shapiro.test(y1) # accept the null hypothesis
     ## 
     ## data:  y1
     ## W = 0.98635, p-value = 0.3952
-    
+
 ``` r
 shapiro.test(y2) # reject the null hypothesis
 ```

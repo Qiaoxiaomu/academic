@@ -31,7 +31,7 @@ This is actually a personal notebook, it only includes what I think is important
 
 - [03 Multivariate Normal Distribution](http://nickzhy.com/courses/multivariate-analysis/cha3-multivariate-normal-distribution/)
 
-- 04 Tests on Mean Vectors
+- [04 Tests on Mean Vectors](http://nickzhy.com/courses/multivariate-analysis/cha4-tests-on-mean-vectors/)
 
 - 05 Discrimination and Classification
 
