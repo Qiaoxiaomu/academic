@@ -25,12 +25,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- display:
-    header: true
-  icon: zhihu
-  icon_pack: fab
-  label: Follow me on Zhihu
-  link: https://www.zhihu.com/people/zheng-han-yu-66-14
+#- display:
+#    header: true
+#  icon: zhihu
+#  icon_pack: fab
+#  label: Follow me on Zhihu
+#  link: https://www.zhihu.com/people/zheng-han-yu-66-14
 - icon: graduation-cap
   icon_pack: fas
   link: https://www.researchgate.net/profile/Hanyu_Zheng4
@@ -41,9 +41,9 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/%E6%B6%B5%E6%98%B1-%E9%83%91-289b8a155/
 superuser: true
-title: 郑涵昱
+title: Hanyu Zheng
 ---
-郑涵昱，南开大学金融工程硕士在读。他计划毕业后申请金融学或者经济学博士。他的研究兴趣包括金融科技、机器学习在金融里的应用、普惠金融。除了他的专业必修课外, 他还在线学习了斯坦福开放课程[CS229](http://cs229.stanford.edu/) (机器学习)和[CS 230](http://cs230.stanford.edu/) (深度学习)等课程。  
+郑涵昱，南开大学金融工程硕士在读。他计划毕业后申请金融学或者经济学博士。他的研究兴趣包括金融科技、金融工程、机器学习在金融中的应用。 
 
 他热爱皇家马德里和克里斯蒂亚诺·罗纳尔多。
 

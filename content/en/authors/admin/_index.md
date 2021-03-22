@@ -25,12 +25,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- display:
-    header: true
-  icon: zhihu
-  icon_pack: fab
-  label: Follow me on Zhihu
-  link: https://www.zhihu.com/people/zheng-han-yu-66-14
+#- display:
+#    header: true
+#  icon: zhihu
+#  icon_pack: fab
+#  label: Follow me on Zhihu
+#  link: https://www.zhihu.com/people/zheng-han-yu-66-14
 - icon: graduation-cap
   icon_pack: fas
   link: https://www.researchgate.net/profile/Hanyu_Zheng4
@@ -43,6 +43,6 @@ social:
 superuser: true
 title: Hanyu Zheng
 ---
-Hanyu Zheng is a master student in Nankai University. He plans to pursue a Ph.D in finance or economics after graduation. His research interests include fintech, machine leaning in finance and financial inclusion. His major courses include probability, econometrics, statistics, financial econometrics and etc. Except for the required courses of his major, he has learned Stanford open courses [CS229](http://cs229.stanford.edu/) (Machine Learning) and [CS 230](http://cs230.stanford.edu/) (Deep Learning) online. 
+Hanyu Zheng is a master student in Nankai University. He plans to pursue a Ph.D in finance or economics after graduation. His research interests include fintech, machine leaning in finance and financial inclusion. His major courses include probability, econometrics, statistics, financial econometrics and etc. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/CV.pdf" "newtab" >}}resumé{{< /staticref >}}.

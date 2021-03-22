@@ -11,9 +11,9 @@
 [zh]
   languageCode = "zh-Hans"
   contentDir = "content/zh"
-  title = "郑涵昱"
+  title = "Academic"
 [zh.params]
-    description = "Site description in Chinese..."
+    description = "微不足道的个人主页"
 
 [[zh.menu.main]]
     name = "简介"
@@ -27,18 +27,18 @@
 #    name = "技能"
 #    url = "#skills"
 #    weight = 3
-[[zh.menu.main]]
-    name = "经历"
-    url = "#experience"
-    weight = 4
-[[zh.menu.main]]
-    name = "获奖"
-    url = "#accomplishments"
-    weight = 5
-[[zh.menu.main]]
-    name = "项目"
-    url = "#projects"
-    weight = 6
+#[[zh.menu.main]]
+#    name = "经历"
+#    url = "#experience"
+#    weight = 4
+#[[zh.menu.main]]
+#    name = "获奖"
+#    url = "#accomplishments"
+#    weight = 5
+#[[zh.menu.main]]
+#    name = "项目"
+#    url = "#projects"
+#    weight = 6
 [[zh.menu.main]]
     name = "笔记"
     url = "courses"
