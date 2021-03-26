@@ -4,13 +4,13 @@
 .article-style aside {
   @extend .alert;
 }
-
+/* 0.9rem
 /* Asides use <p> block element whereas alerts use <div>. */
 .article-style aside p,
 div.alert > div {
   position: relative;
   display: block;
-  font-size: 1rem;
+  font-size: xx-midium;
   margin-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;

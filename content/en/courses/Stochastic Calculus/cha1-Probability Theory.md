@@ -25,7 +25,10 @@ The **union** of $A$ and $B$: $A \cup B=\{\omega \in \Omega: \omega \in A \text 
 
 ## Power Set $\mathscr{P}$
 
+{{% callout note %}}
+**Definition**: 
 The colleciton of all subsets of $\Omega$ is called the **power set** of $\Omega$ and is denoted by $\mathscr{P}(\Omega)$
+{{% /callout %}}
 
 $\mathscr{P}(\Omega)$ is itself a set, but its elements are sets. In other words, 
 
@@ -33,12 +36,14 @@ $$A \in \mathscr{P}(\Omega) \Longleftrightarrow A \subset \Omega$$
 
 ## $\sigma$-algebra $\mathscr{F}$
 
-**Definition**
+{{% callout note %}}
+**Definition**:
 A collection $\mathscr{F}$ of subsets of $\Omega$ is called a $\sigma$-algebra on $\Omega$ if: 
 
-1. $\Omega \in \mathscr{F}$
-2. if $A \in \mathscr{F} \text{ then } A^c \in \mathscr{F}$
-3. if {$A_{n}, n=1,2, \ldots$} is a sequence of members of $\mathscr{F}$, then $\underset{1 \leq n<\infty}{\bigcup} A_{n} \in \mathscr{F}$
+- $\Omega \in \mathscr{F}$
+- if $A \in \mathscr{F} \text{ then } A^c \in \mathscr{F}$
+- if {$A_{n}, n=1,2, \ldots$} is a sequence of members of $\mathscr{F}$, then $\underset{1 \leq n<\infty}{\bigcup} A_{n} \in \mathscr{F}$
+{{% /callout %}}
 
 **Interpretation**
 
@@ -46,15 +51,48 @@ A collection $\mathscr{F}$ of subsets of $\Omega$ is called a $\sigma$-algebra o
 - If $\mathscr{F}$ and $\mathscr{G}$ are $\sigma$-algebras on $\Omega$ such that $\mathscr{F} \cup \mathscr{G}$, we say that $\mathscr{F}$ is a sub $\sigma$-algebra of $\mathscr{G}$, i.e., $\mathscr{G}$ contains more information than $\mathscr{F}$
 
 **Properties**
-If $\mathscr{F}$ is a $\sigma$-algebra on $\Omega$, then,
 
+If $\mathscr{F}$ is a $\sigma$-algebra on $\Omega$, then,
 - $\varnothing \in \mathscr{F}$
 - if $A,B \in \mathscr{F}, \text{ then } A \cup B \in \mathscr{F}$
 - if {$A_{n}, n=1,2, \ldots$} is a sequence of members of $\mathscr{F}$, then $\underset{1 \leq n<\infty}{\bigcap} A_{n} \in \mathscr{F}$
 - $\mathscr{F}$ contains any set obtained from usual operations on its sets (complement, intersection, union).
 
 **Remarks**
+
 - The collection $\{\varnothing,\Omega \}$ is the smallest $\sigma$-algebra over $\Omega$
 - The collection $\mathscr{P}$ is the largest $\sigma$-algebra over $\Omega$
 - There are cases in between these two extremes: for any $\sigma$-algebra $\mathscr{F}$
   $$\{\Omega, \varnothing\} \subset \mathscr{F} \subset \mathscr{P}(\Omega)$$
+- Intersections of $\sigma$-algebras are $\sigma$-algebras, i.e., information in common
+- Unions of $\sigma$-algebras are not necessarily $\sigma$-algebras
+
+## Borel $\sigma$-algebra
+
+### Borel $\sigma$-algebra on $\mathbb{R}$
+
+{{% callout note %}}
+**Definition**: 
+Let $\Omega=\mathbb{R}$ and $\mathscr{C}$ be as follows:
+
+$$\mathscr{C}=\{(-\inf,a]:a \in \mathbb{R}\}$$
+
+Then $\sigma(\mathscr{C})$ is called the Borel $\sigma$-algebra over $\mathbb{R}$, and is denoted by $\mathscr{B}(\mathbb{R})$
+{{% /callout %}}
+
+- $\mathscr{B}(\mathbb{R})$ contains most interesting sets of real numbers
+- However, it can be shown that $\mathscr{B}(\mathbb{R}) \neq \mathscr{P}(\Omega)$
+- If not mentioned otherwise, the $\sigma$-algebra considered on $\mathbb{R}$ is $\mathscr{B}(\mathbb{R})$
+
+### Borel $\sigma$-algebra on $I$
+
+{{% callout note %}}
+**Definition**:
+Let $I$ be any interval in $\mathbb{R}$, $\Omega=I$ and define $\mathscr{B}(I)$ by
+
+$$\mathscr{B}(I)=\{I \cap B: B \in \mathscr{B}(\mathbb{R})\}$$
+
+Then $\mathscr{B}(I)$ is a $\sigma$-algebra over $I$, and it is called the Borel $\sigma$-algebra over $I$.
+{{% /callout %}}
+
+**NOTE**: The sets in $\mathscr{B}(I)$ are just the intersection of $I$ and the sets in  $\mathscr{\mathbb{R}}$.
