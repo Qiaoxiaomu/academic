@@ -143,7 +143,7 @@ Then $f^{-1}(A')$ means all of the students in class 2 whose surenames' first le
 
 {{% callout note %}}
 **Definition**: 
-Let $(\Omega,\mathscr{F})$ and $\Omega',\mathscr{F}'$ be two measurable spaces. A map $f: \Omega \rightarrow \Omega'$ is said to be $\mathscr{F}/\mathscr{F}'$**-measurable** (or simple, measurable) if 
+Let $(\Omega,\mathscr{F})$ and $(\Omega',\mathscr{F}')$ be two measurable spaces. A map $f: \Omega \rightarrow \Omega'$ is said to be $\mathscr{F}/\mathscr{F}'$**-measurable** (or simple, measurable) if 
 
 $$f^{-1}\left(A^{\prime}\right) \in \mathscr{F} \text { for all } A^{\prime} \in \mathscr{F}^{\prime}$$
 {{% /callout %}}
@@ -156,7 +156,7 @@ If $\mathscr{F}$ is the power set, then $f^{-1}(\mathscr{F})$ must be part of th
 **Definition**: 
 A **random variable** on a measurable space $(\Omega,\mathscr{F})$ is a map $X: \Omega \rightarrow \mathbb{R}$ which is $\mathscr{F}/\mathscr{B}(\mathbb{R})$ measurable. That is,
 
-$$X^{-1}(B)=\{\omega \in \Omega: X(\omega) \in B\} \in \mathscr{F} \text { for all } B \in \mathscr{B}(\mathbb{R})$$
+$$X^{-1}(B)=\\{\omega \in \Omega: X(\omega) \in B\\} \in \mathscr{F} \text { for all } B \in \mathscr{B}(\mathbb{R})$$
 {{% /callout %}}
 
 The value taken by $X$ depends on the prevailing state of nature
@@ -164,7 +164,7 @@ $$\omega \in \Omega \rightarrow X(\omega) \in \mathbb{R}$$
 
 - a random variable $X$ represents an unkonwn quantity
 - information in $\mathscr{F}$ contains information on $X$
-- we just write {$X \in B$} for $X^{-1}(B)$
+- we just write $\\{X \in B\\}$ for $X^{-1}(B)$
 
 **Proposition** 
 
