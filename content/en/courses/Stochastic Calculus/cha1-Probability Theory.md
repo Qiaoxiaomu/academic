@@ -75,7 +75,7 @@ If $\mathscr{F}$ is a $\sigma$-algebra on $\Omega$, then,
 **Definition**: 
 Let $\Omega=\mathbb{R}$ and $\mathscr{C}$ be as follows:
 
-$$\mathscr{C}=\{(-\inf,a]:a \in \mathbb{R}\}$$
+$$\mathscr{C}=\{(-\infty,a]:a \in \mathbb{R}\}$$
 
 Then $\sigma(\mathscr{C})$ is called the Borel $\sigma$-algebra over $\mathbb{R}$, and is denoted by $\mathscr{B}(\mathbb{R})$
 {{% /callout %}}
@@ -194,3 +194,30 @@ $$Z:\Omega \rightarrow \mathbb{R},Z((3,4))=7$$
 $B \in \mathscr{B}(\mathbb{R})$, $X^{-1}_1(B)=\\{X_1 \in B\\}=\\{\omega \in \Omega:X_1(\omega) \in B\\} \in \mathscr{F}=\mathscr{P}(\Omega)$
 
 $\sigma(X_1)$ means what information I have if I can only observe the first dice. $\sigma(X_2)$ means what information I have if I can only observe the second dice. $\sigma(Z)$ means what information I have if I can only observe sum of the 2 dice. Here we have just partial information.
+
+## Distribution and Density
+
+{{% callout note %}}
+**Definition**: 
+Let $X$ be a random variable on a probability space $(\Omega, \mathscr{F}, P)$. The **distribution** or law of $X$ under $P$ is the probability $P_X$ on $(\mathbb{R}, \mathscr{B}(\mathbb{R}))$ defined by
+
+$$P_X(B)=P(X^{-1}(B)), \text{ for } B \in \mathscr{B}(\mathbb{R})$$
+{{% /callout %}}
+
+Note that $X^{-1}(B)=\\{\omega \in \Omega: X(\omega) \in B\\} \in \mathscr{F} \text { for all } B \in \mathscr{B}(\mathbb{R})$
+
+{{% callout note %}}
+**Definition**: 
+Let $X$ be a random variable on a probability space $((\Omega, \mathscr{F}, P)$. The **cumulative distribution function (cdf)** of $X$ is the function $F_X: \mathbb{R} \rightarrow [0,1]$ defined by
+
+$$F_X(x)=P_X((-\infty,x])=P(X \leq x)$$
+{{% /callout %}}
+
+{{% callout note %}}
+**Definition**: 
+A random variable $X$ is continuous if its cdf $F_X$ is continuous, that is $P(X=x)=0$ for all $x \in \mathbb{R}$
+
+A continuous random variable has a **density** $f_X: \mathbb{R} \rightarrow [0,+\infty)$ if 
+$$F_X(x)=\int_{-\infty}^{x}{f_X(u)\mathrm{d}u}$$
+{{% /callout %}}
+
