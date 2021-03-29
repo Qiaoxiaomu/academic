@@ -221,3 +221,36 @@ A continuous random variable has a **density** $f_X: \mathbb{R} \rightarrow [0,+
 $$F_X(x)=\int_{-\infty}^{x}{f_X(u)\mathrm{d}u}$$
 {{% /callout %}}
 
+
+## Independence
+
+{{% callout note %}}
+**Definition**: 
+Consider a probability space $(\Omega,\mathscr{F},P)$
+- The sub $\sigma$-algebras $\\{\mathscr{F}: t \in T\\}$ of $\mathscr{F}$ are independent if for all $t\_1,...,t\_n \in T$ and all $A\_1 \in \mathscr{F}\_{t_1},...,A_n \in \mathscr{F}\_{t_n}$ the following factorization property holds:
+  $$P(A\_1 \cap ... \cap A\_n)=P(A\_1)·...·P(A\_n)$$
+- Then random variables $\\{X\_t: t \in T\\}$ are independent if the generated $\sigma$-algebras $\\{\sigma(X_t): t \in T\\}$ are independent.
+{{% /callout %}}
+
+# Integration and Expectation
+
+{{% callout note %}}
+**Definition**: 
+For an integrable random variable $X$ on $(\Omega,\mathscr{F},P)$ and a measurable set $A \in \mathscr{F}$, the integral of $X$ over $A$ is 
+
+$$E[X;A]=\int_{A}{X}\mathrm{d}(P)=E[X\mathbb{I}_{A}]$$
+{{% /callout %}}
+
+$E[X;A]=E[X·\mathbb{I}_{A}]$. It's like considering $X$ only over the set $A$ and not over teh entire sample space. The effect of multiplying by the indicator is essentially killing the random variable $X$ outside $A$
+
+**Properties**
+
+$X,Y$ are integrable random variables on $(\Omega,\mathscr{F},P)$
+- Linearity
+- Monotonicity: if $X \leq Y$ a.s. then $E\[X\] \leq E[Y]$
+- **Jensen Inequality**: if $I$ is an interval and 
+  - $g: I \rightarrow \mathbb{R}$ is convex
+  - $X \in I$ a.s.
+  - $g(X)$ is integrable
+  
+  then $E[g(X)] \geq g(E[X])$. For example, $E[X^2] \geq E[X]^2, E[e^X] \geq e^{E[X]}$

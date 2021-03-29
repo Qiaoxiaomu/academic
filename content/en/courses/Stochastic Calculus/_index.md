@@ -2,10 +2,10 @@
 date: "2021-03-03"
 linkTitle: Stochastic Calculus
 summary: A notebook for Stochastic Calculus self-studyinig
-title: "\U0001F4B5 Stochastic Calculus"
+title: "\U0001F4C9 Stochastic Calculus"
 type: book
 math: true
-weight: 10
+weight: 1
 ---
 
 {{< figure src="featured.png" >}}
