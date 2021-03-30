@@ -97,7 +97,7 @@ Then $\mathscr{B}(I)$ is a $\sigma$-algebra over $I$, and it is called the Borel
 
 **NOTE**: The sets in $\mathscr{B}(I)$ are just the intersection of $I$ and the sets in  $\mathscr{\mathbb{R}}$.
 
-# Probability Measure and Space
+## Probability Measure and Space
 
 {{% callout note %}}
 **Definition**: 
@@ -254,3 +254,48 @@ $X,Y$ are integrable random variables on $(\Omega,\mathscr{F},P)$
   - $g(X)$ is integrable
   
   then $E[g(X)] \geq g(E[X])$. For example, $E[X^2] \geq E[X]^2, E[e^X] \geq e^{E[X]}$
+
+# Conditional Expectation
+
+## Kolmogorov Theorem
+
+Let $X$ be an integrable random variable oin$(\Omega,\mathscr{F},P)$ and $\mathscr{G} \subset \mathscr{F}$ a sub $\sigma$-algebra of $\mathscr{F}$. Then, there exists a random variable $Z$ such that
+
+1. $Z$ is $\mathscr{G}$-measurable: 
+2. $Z$ is integrable
+3. For all $A \in \mathscr{G}$, average of $Z$ over $A$ equals the average of $X$ over $A$, i.e.
+   $$\int_{A}{Z \mathrm{d}(P)}=\int_{A}{X \mathrm{d}(P)}$$
+
+Moreover, $Z$ is **unique**: if $\bar{Z}$ is any other random variable having the 3 properties above, then $Z=\bar{Z}, P-a.s.$
+
+{{% callout note %}}
+**Definition**: 
+We call the random variable $Z$ in the previous Theorem the **conditional expectation** of $X$ with repect to $\mathscr{G}$, and we denote it by $E[X|\mathscr{G}]$ (which is a random variable!)
+{{% /callout %}}
+
+- $E[X|\mathscr{G}]$ means the best assessment you can make of $X$ given that you have the information contained in $\mathscr{G}$ which is a sub $\sigma$-algebra.
+- The third property is called **partial averaging**
+  $$E[Z;A]=E[E[X|\mathscr{G}];A]]=E[X;A] \text{ for all } A \in \mathscr{G}$$
+- When $\mathscr{G}=\sigma(Y)$ (see [Random Variables](#random-variables)) we just write $E[X|Y]$ for $E[X|\sigma(Y)]$
+- $E[X|\mathscr{G}]$ is the best forecast of $X$ given the information in $\mathscr{G}$, i.e., the distance of $X$ from a $\mathscr{G}$-measurable random variable $Z$ is minimal when $Z=E[X|\mathscr{G}]$
+
+## Properties
+
+$X$ and $Y$ are integrable random varables on $(\Omega,\mathscr{F},P)$ and $\mathscr{G}$ a sub-$\sigma$-algebra of $\mathscr{F}$
+- Linearity
+- Monotonicity
+- Jensen Inequality
+- "Expectation of conditional expectation is an expectation": 
+  $$E[E\[X|\mathscr{G}]]=E\[X]$$
+- "Tower property": if $\mathscr{H}$ is a sub-$\sigma$-algebra of $\mathscr{G}$ ($\mathscr{H} \in \mathscr{G}$), then
+  $$E\[E\[X|\mathscr{G}]|\mathscr{H}]=E\[X|\mathscr{H}] \text{ a.s. }$$
+- if $X$ is independent of $\mathscr{G}$, i.e., $\sigma(X)$ and $\mathscr{G}$ are independent, then
+  $$E\[X|\mathscr{G}]=E\[X]$$
+- "Pulling-out known factors": if $Y$ is a $\mathscr{G}$-measurable random variable ($Y$ is like a constant in this situation) such that $XY$ is integrable, then
+  $$E\[XY|\mathscr{G}]=YE\[X|\mathscr{G}] \text{ a.s. }$$
+
+## Conditional Variance
+
+If $X$ is square integrable, define
+
+$$\mathrm{VAR}[X|\mathscr{G}\]=E[(X-E[X|\mathscr{G}])^2|\mathscr{G}]=E[X^2|\mathscr{G}]-E[X|\mathscr{G}]^2$$
