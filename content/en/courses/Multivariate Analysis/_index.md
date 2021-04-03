@@ -33,7 +33,7 @@ This is actually a personal notebook, it only includes what I think is important
 
 - [04 Tests on Mean Vectors](http://nickzhy.com/courses/multivariate-analysis/cha4-tests-on-mean-vectors/)
 
-- 05 Discrimination and Classification
+- [05 Discrimination and Classification](http://nickzhy.com/courses/multivariate-analysis/cha5-descriminant-and-classification/)
 
 - 06 Multivariate Regression
 
