@@ -5,6 +5,7 @@ type: book
 weight: 5
 math: true
 ---
+[Homework 2 Possible Solutions](https://1drv.ms/u/s!AhPTUXN0QjiSznyugvp6vWiHG_-W?e=okA0Ag)
 
 # Drawbacks of Univariate Tests
 
